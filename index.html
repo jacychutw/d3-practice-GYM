@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>台灣運動場館</title>
+    <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
+    <script src="index.js" defer></script>
+  </head>
+  <style>
+    body {
+      background: lightblue;
+    }
+
+    .county {
+      fill: #ebf0e4;
+      stroke: gray;
+      stroke-width: 0.1px;
+    }
+
+    .custom_tooltip {
+      position: absolute;
+      text-align: left;
+      width: max-content;
+      padding: 10px;
+      font: 10px;
+      background: #f0eeeb;
+      color: dimgray;
+      border: 1px solid dimgray;
+      border-radius: 3px;
+      pointer-events: none;
+    }
+  </style>
+  <body>
+    <svg width="900" height="1200">
+    </svg>
+  </body>
+</html>
